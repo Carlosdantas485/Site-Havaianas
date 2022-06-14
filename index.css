@@ -142,6 +142,7 @@ input{
 .timer-promotion{
     height: 60px;
     width: 70vw;
+    height: 100%;
     background-color: #2C3582;
     color: white;
     display: flex;
@@ -194,7 +195,7 @@ input{
 
 .img-product{
     margin: 10px;
-    width: 200px;
+    width: 100%;
 }
 
 .description-product{
