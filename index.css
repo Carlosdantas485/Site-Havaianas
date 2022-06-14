@@ -194,7 +194,7 @@ input{
 
 .img-product{
     margin: 10px;
-    height: 300px;
+    width: 100%;
 }
 
 .description-product{
