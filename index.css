@@ -19,6 +19,7 @@ input{
     margin: 10px;
     border-radius: 10px;
     border: none;
+    font-size: 20px;
 }
 .container{
     display: flex;
@@ -238,6 +239,7 @@ input{
 }
 
 footer{
+    
 }
 
 .header-footer{
@@ -285,8 +287,11 @@ footer{
 
 .end-footer{padding: 10px;
     display: flex;
+    width: 100%;
     justify-content: center;
     align-items: center;
     background-color: black;
-    color: white
-;}
+    color: white;
+    position: fixed;
+    bottom: 0;
+}
