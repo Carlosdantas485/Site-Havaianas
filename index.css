@@ -71,7 +71,10 @@ input{
     border-bottom:  1px solid rgb(0, 0, 0);
     border-radius: 0;
     text-decoration: underline;
+}
 
+.btn-menu a{
+    color: white;
 }
 .btn-menu:hover{
     background-color: #37C1E4;
@@ -232,11 +235,13 @@ input{
 
 #btn-buy-now{
     background-color: #28B17D;
-
 }
 
+footer{
+}
 
 .header-footer{
+    padding: 0px 20px;
     height: 10vh;
     background-color: #66CCD8;
     display: flex;
@@ -265,7 +270,7 @@ input{
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    background-color: #F6B50A;
+    background-color: #fa7b04;
 }
 
 .options-footer{
@@ -275,7 +280,7 @@ input{
     align-items: center;
     justify-content: center;
     padding: 10px;
-    background-color: #923ab1;
+    color: white;
 }
 
 .end-footer{padding: 10px;
