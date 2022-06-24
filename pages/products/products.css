@@ -1,19 +1,6 @@
 
-.block-about{
-    padding: 10px;
+.view{
     display: flex;
-    background-color: white;
-}
-.maps-localization{
-    width: 40vw;
-    height: 400px;
-    border: none;
-}
-.text-about{
-    width: 30vw;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
 }

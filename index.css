@@ -47,6 +47,7 @@
     align-items: center;
     justify-content: center;
   }
+
   .icon-menu{
     width: 20px;
   }
@@ -93,7 +94,7 @@ body{
     top: 0;
     display: flex;
     flex-direction: column;
-    border-radius: 0px 50px 50px ;
+    border-radius: 0 50px 50px ;
     font-size: 20px;
     font-weight: bold;
     background-color: rgb(255, 255, 255);
@@ -170,14 +171,15 @@ body{
 }
 
 .list-itens{
-    width: 70vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    background-color: white;
 }
 
 .box-product{
+    background-color: rgb(233, 233, 233);
     margin: 5px;
     display: flex;
     flex-direction: column;
