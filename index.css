@@ -4,7 +4,7 @@
     font-family: 'Lato', sans-serif;
 }
 
-.btn {
+.btn-style {
     height: 60px;
     margin-top: 5px;
     cursor: pointer;
@@ -29,20 +29,26 @@
     transition: 1s ease-in-out;
   }
   
-  .btn:hover {
+  .btn-style:hover {
     transition: 1s ease-in-out;
     background: #72b6fa;
   }
   
-  .btn:hover svg {
+  .btn-style:hover svg {
     stroke-dashoffset: -480;
   }
   
-  .btn span {
+  .btn-style span {
     position: absolute;
     color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .icon-menu{
+    width: 20px;
   }
   
 
@@ -56,14 +62,13 @@ input{
 }
 
 body{
-    background-image: url(./img/bg-content.jpg);
-    background-size: 100%;
+    background-image: url(./img/bg-site.jpg);
 }
 
 .container{
     display: flex;
-    height: 100%;
-    
+    margin: 0;
+    padding: 0;
 }
 
 .hamburger-menu{
@@ -103,12 +108,17 @@ body{
     margin: 10px 0;
 }
 
+.options-menu{
+    display: flex;
+    flex-direction: column;
+}
+
 #menu{
     display: none;
 }
 
 .header-main-content{
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -117,6 +127,7 @@ body{
 .header-main-logo{
     position: relative;
     width: 100%;
+    height: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -124,8 +135,9 @@ body{
     background-color: rgb(255, 255, 255);
     box-shadow: 0.1px 0.1px 5px 0.1px rgb(0, 0, 0);
 }
+
 .header-main-logo p{
- font-size: 20px;
+    font-size: 20px;
 }
 
 .logo{ 
@@ -144,7 +156,7 @@ body{
     height: 60px;
     width: 70vw;
     height: 100%;
-    background-color:#20beb1dc;
+    background-color:#20beb1f3;
     color: white;
     display: flex;
     flex-wrap: wrap;
@@ -153,17 +165,40 @@ body{
     padding: 10px;
 }
 
+.banner{
+    width: 100%;
+}
+
+.list-itens{
+    width: 70vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-product{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-product{
+    width: 200px;
+}
 
 .block{
-    width: 70vw;
+    width: 100%;
     background-color: #ffffff;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 10px;
 }
-
 
 footer{
     text-decoration: none;
