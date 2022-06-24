@@ -9,13 +9,13 @@
     margin-top: 5px;
     cursor: pointer;
     background: transparent;
-    border: 1px solid #91C9FF;
+    border: none;
     outline: none;
     transition: 1s ease-in-out;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #064c82;
+    background-color: #ffffff;
   }
   
   svg {
@@ -40,7 +40,7 @@
   
   .btn span {
     position: absolute;
-    color: white;
+    color: black;
     font-size: 18px;
     font-weight: 100;
   }
@@ -73,26 +73,28 @@ body{
 }
 
 .hamburger-menu > img{
-    width: 40px;
-    background-color: #ffffff;
+    width: 30px;
     border-radius: 50%;
-    padding: 10px;
+    padding: 5px;
     display: flex;
     cursor: pointer;
     align-items: flex-end;
+    background-color: white;
     box-shadow: 1px 1px 5px 1px rgb(255, 255, 255);
+
 }
 
 .box-content-menu{
     position: fixed;
     padding: 15px;
     top: 0;
-    background-color: rgba(209, 209, 209, 0.964);
+    background-color: rgba(81, 93, 168, 0.964);
     display: flex;
     flex-direction: column;
     border-radius: 0px 50px 50px ;
     font-size: 20px;
     font-weight: bold;
+    box-shadow: 1px 1px 10px 1px rgb(0, 0, 0);
 }
 
 .content-menu{
@@ -123,6 +125,8 @@ body{
     align-items: center;
     background-color: rgba(81, 93, 168, 0.964);
     color: white;
+    box-shadow: 1px 1px 6px 1px rgb(0, 0, 0);
+
 }
 .header-main-logo p{
  font-size: 20px;
