@@ -1,421 +1,150 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
-    
-    <script src="./actions/open-close.js"></script>
-    <title>Mini Shopping araribá </title>
-</head>
-<body onload="startTime()">
-    <main class="container">
-        
-        <div class="header-main-content">
-            <div class="header-main-logo">
-                <a href="./index.html"><img class="logo" src="./img/logo.png" alt=""></a>
-                <div class="seach-box">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./index.css" media="screen" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
+        <script src="./actions/open-close.js"></script>
+        <title>Havaianas Araribá - Revendedora </title>
+    </head>
+
+    <body onload="startTime()">
+        <main class="container">
+            <div class="header-main-content">
+                <div class="header-main-logo">
+                    <a href="./index.html"><img class="logo" src="./img/logo.png" alt=""></a>
+                    <p>Mini Shopping Araribá</p>
+                </div>
+                <div class="view">
+                    <div class="timer-promotion">
+                        <h2>Promocao termina em</h2>
+                        <div id="txt"></div>
+                    </div>
+                    <div class="block">
+                        
+                        <h2>Promocao termina em</h2>
+                        <h2>Promocao termina em</h2>
+                        <h2>Promocao termina em</h2>
+                        <h2>Promocao termina em</h2>
+
+                        <h2>Promocao termina em</h2>
+                        <h2>Promocao termina em</h2>
+                        <h2>Promocao termina em</h2>
+                        <h2>Promocao termina em</h2>
+
+
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="header-footer">
+                <h3>Receba novovidades por e-mail !</h3>
+                <div class="header-footer-e-mail">
                     <input type="text" name="" id="">
                     <button>BUSCAR</button>
                 </div>
             </div>
-            <div class="view">
-                <div class="timer-promotion">
-                    <h2>Promocao termina em</h2>
-                    <div id="txt"></div>
+            <div class="main-footer">
+                <div class="options-footer">
+                <ul>
+                    <li>SOBRE A LOJA AQUI</li>
+                    <li>SOBRE A LOJA AQUI</li>
+                    <li>SOBRE A LOJA AQUI</li>
+                    <li>SOBRE A LOJA AQUI</li>
+                    <li>SOBRE A LOJA AQUI</li>
+                </ul>
                 </div>
-                <div class="block">
-                    <div class="box-product">
-                        <div class="header-box-product">
-                            <button><3</button>
-                            <button>+</button>
-                        </div>
-                        <img class="img-product" src="./img/img-products/product.jpg" alt="">
-                        <div class="description-product">
-                            <p>Chinelo Havaianas Stesh Disney (Kids)</p>
-                            <div class="value-product">
-                                <div class="old-price-product">
-                                    <h4>De R$</h4>
-                                    <p> 30,00</p>
-                                </div>
-                                <div class="price-product">
-                                    <h4>Por R$ </h4>
-                                    <p> 24,99</p>
-                                </div>
-                            </div>
-                            <div class="portion-price">
-                                <p>Em até 5x de R$ 4,99 sem juros</p>
-                                <div class="btn-buy-product">
-                                    <button id="btn-buy-now">COMPRAR AGORA</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="box-product">
-                        <div class="header-box-product">
-                            <button><3</button>
-                            <button>+</button>
-                        </div>
-                        <img class="img-product" src="./img/img-products/product.jpg" alt="">
-                        <div class="description-product">
-                            <p>Chinelo Havaianas Stesh Disney (Kids)</p>
-                            <div class="value-product">
-                                <div class="old-price-product">
-                                    <h4>De R$</h4>
-                                    <p> 30,00</p>
-                                </div>
-                                <div class="price-product">
-                                    <h4>Por R$ </h4>
-                                    <p> 24,99</p>
-                                </div>
-                            </div>
-                            <div class="portion-price">
-                                <p>Em até 5x de R$ 4,99 sem juros</p>
-                                <div class="btn-buy-product">
-                                    <button id="btn-buy-now">COMPRAR AGORA</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="box-product">
-                        <div class="header-box-product">
-                            <button><3</button>
-                            <button>+</button>
-                        </div>
-                        <img class="img-product" src="./img/img-products/product.jpg" alt="">
-                        <div class="description-product">
-                            <p>Chinelo Havaianas Stesh Disney (Kids)</p>
-                            <div class="value-product">
-                                <div class="old-price-product">
-                                    <h4>De R$</h4>
-                                    <p> 30,00</p>
-                                </div>
-                                <div class="price-product">
-                                    <h4>Por R$ </h4>
-                                    <p> 24,99</p>
-                                </div>
-                            </div>
-                            <div class="portion-price">
-                                <p>Em até 5x de R$ 4,99 sem juros</p>
-                                <div class="btn-buy-product">
-                                    <button id="btn-buy-now">COMPRAR AGORA</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="box-product">
-                        <div class="header-box-product">
-                            <button><3</button>
-                            <button>+</button>
-                        </div>
-                        <img class="img-product" src="./img/img-products/product.jpg" alt="">
-                        <div class="description-product">
-                            <p>Chinelo Havaianas Stesh Disney (Kids)</p>
-                            <div class="value-product">
-                                <div class="old-price-product">
-                                    <h4>De R$</h4>
-                                    <p> 30,00</p>
-                                </div>
-                                <div class="price-product">
-                                    <h4>Por R$ </h4>
-                                    <p> 24,99</p>
-                                </div>
-                            </div>
-                            <div class="portion-price">
-                                <p>Em até 5x de R$ 4,99 sem juros</p>
-                                <div class="btn-buy-product">
-                                    <button id="btn-buy-now">COMPRAR AGORA</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="box-product">
-                        <div class="header-box-product">
-                            <button><3</button>
-                            <button>+</button>
-                        </div>
-                        <img class="img-product" src="./img/img-products/product.jpg" alt="">
-                        <div class="description-product">
-                            <p>Chinelo Havaianas Stesh Disney (Kids)</p>
-                            <div class="value-product">
-                                <div class="old-price-product">
-                                    <h4>De R$</h4>
-                                    <p> 30,00</p>
-                                </div>
-                                <div class="price-product">
-                                    <h4>Por R$ </h4>
-                                    <p> 24,99</p>
-                                </div>
-                            </div>
-                            <div class="portion-price">
-                                <p>Em até 5x de R$ 4,99 sem juros</p>
-                                <div class="btn-buy-product">
-                                    <button id="btn-buy-now">COMPRAR AGORA</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="box-product">
-                        <div class="header-box-product">
-                            <button><3</button>
-                            <button>+</button>
-                        </div>
-                        <img class="img-product" src="./img/img-products/product.jpg" alt="">
-                        <div class="description-product">
-                            <p>Chinelo Havaianas Stesh Disney (Kids)</p>
-                            <div class="value-product">
-                                <div class="old-price-product">
-                                    <h4>De R$</h4>
-                                    <p> 30,00</p>
-                                </div>
-                                <div class="price-product">
-                                    <h4>Por R$ </h4>
-                                    <p> 24,99</p>
-                                </div>
-                            </div>
-                            <div class="portion-price">
-                                <p>Em até 5x de R$ 4,99 sem juros</p>
-                                <div class="btn-buy-product">
-                                    <button id="btn-buy-now">COMPRAR AGORA</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="box-product">
-                        <div class="header-box-product">
-                            <button><3</button>
-                            <button>+</button>
-                        </div>
-                        <img class="img-product" src="./img/img-products/product.jpg" alt="">
-                        <div class="description-product">
-                            <p>Chinelo Havaianas Stesh Disney (Kids)</p>
-                            <div class="value-product">
-                                <div class="old-price-product">
-                                    <h4>De R$</h4>
-                                    <p> 30,00</p>
-                                </div>
-                                <div class="price-product">
-                                    <h4>Por R$ </h4>
-                                    <p> 24,99</p>
-                                </div>
-                            </div>
-                            <div class="portion-price">
-                                <p>Em até 5x de R$ 4,99 sem juros</p>
-                                <div class="btn-buy-product">
-                                    <button id="btn-buy-now">COMPRAR AGORA</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="box-product">
-                        <div class="header-box-product">
-                            <button><3</button>
-                            <button>+</button>
-                        </div>
-                        <img class="img-product" src="./img/img-products/product.jpg" alt="">
-                        <div class="description-product">
-                            <p>Chinelo Havaianas Stesh Disney (Kids)</p>
-                            <div class="value-product">
-                                <div class="old-price-product">
-                                    <h4>De R$</h4>
-                                    <p> 30,00</p>
-                                </div>
-                                <div class="price-product">
-                                    <h4>Por R$ </h4>
-                                    <p> 24,99</p>
-                                </div>
-                            </div>
-                            <div class="portion-price">
-                                <p>Em até 5x de R$ 4,99 sem juros</p>
-                                <div class="btn-buy-product">
-                                    <button id="btn-buy-now">COMPRAR AGORA</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="box-product">
-                        <div class="header-box-product">
-                            <button><3</button>
-                            <button>+</button>
-                        </div>
-                        <img class="img-product" src="./img/img-products/product.jpg" alt="">
-                        <div class="description-product">
-                            <p>Chinelo Havaianas Stesh Disney (Kids)</p>
-                            <div class="value-product">
-                                <div class="old-price-product">
-                                    <h4>De R$</h4>
-                                    <p> 30,00</p>
-                                </div>
-                                <div class="price-product">
-                                    <h4>Por R$ </h4>
-                                    <p> 24,99</p>
-                                </div>
-                            </div>
-                            <div class="portion-price">
-                                <p>Em até 5x de R$ 4,99 sem juros</p>
-                                <div class="btn-buy-product">
-                                    <button id="btn-buy-now">COMPRAR AGORA</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="box-product">
-                        <div class="header-box-product">
-                            <button><3</button>
-                            <button>+</button>
-                        </div>
-                        <img class="img-product" src="./img/img-products/product.jpg" alt="">
-                        <div class="description-product">
-                            <p>Chinelo Havaianas Stesh Disney (Kids)</p>
-                            <div class="value-product">
-                                <div class="old-price-product">
-                                    <h4>De R$</h4>
-                                    <p> 30,00</p>
-                                </div>
-                                <div class="price-product">
-                                    <h4>Por R$ </h4>
-                                    <p> 24,99</p>
-                                </div>
-                            </div>
-                            <div class="portion-price">
-                                <p>Em até 5x de R$ 4,99 sem juros</p>
-                                <div class="btn-buy-product">
-                                    <button id="btn-buy-now">COMPRAR AGORA</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="box-product">
-                        <div class="header-box-product">
-                            <button><3</button>
-                            <button>+</button>
-                        </div>
-                        <img class="img-product" src="./img/img-products/product.jpg" alt="">
-                        <div class="description-product">
-                            <p>Chinelo Havaianas Stesh Disney (Kids)</p>
-                            <div class="value-product">
-                                <div class="old-price-product">
-                                    <h4>De R$</h4>
-                                    <p> 30,00</p>
-                                </div>
-                                <div class="price-product">
-                                    <h4>Por R$ </h4>
-                                    <p> 24,99</p>
-                                </div>
-                            </div>
-                            <div class="portion-price">
-                                <p>Em até 5x de R$ 4,99 sem juros</p>
-                                <div class="btn-buy-product">
-                                    <button id="btn-buy-now">COMPRAR AGORA</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="box-product">
-                        <div class="header-box-product">
-                            <button><3</button>
-                            <button>+</button>
-                        </div>
-                        <img class="img-product" src="./img/img-products/product.jpg" alt="">
-                        <div class="description-product">
-                            <p>Chinelo Havaianas Stesh Disney (Kids)</p>
-                            <div class="value-product">
-                                <div class="old-price-product">
-                                    <h4>De R$</h4>
-                                    <p> 30,00</p>
-                                </div>
-                                <div class="price-product">
-                                    <h4>Por R$ </h4>
-                                    <p> 24,99</p>
-                                </div>
-                            </div>
-                            <div class="portion-price">
-                                <p>Em até 5x de R$ 4,99 sem juros</p>
-                                <div class="btn-buy-product">
-                                    <button id="btn-buy-now">COMPRAR AGORA</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    
+                <div class="options-footer">
+                <ul>
+                        <li>SOBRE A LOJA AQUI</li>
+                        <li>SOBRE A LOJA AQUI</li>
+                        <li>SOBRE A LOJA AQUI</li>
+                        <li>SOBRE A LOJA AQUI</li>
+                        <li>SOBRE A LOJA AQUI</li>
+                </ul>
                 </div>
+                <div class="options-footer">
+                <ul>
+                        <li>SOBRE A LOJA AQUI</li>
+                        <li>SOBRE A LOJA AQUI</li>
+                        <li>SOBRE A LOJA AQUI</li>
+                        <li>SOBRE A LOJA AQUI</li>
+                        <li>SOBRE A LOJA AQUI</li>
+                </ul>
+                </div>
+                
+            </div>
+            <div class="end-footer">
+                <p>Created by: Carlos Dantas</p>
+            </div>
+        </footer>
+        <div class="box-content-menu">
+            <div onclick="myFunction()" class="hamburger-menu">
+                <img  src="./img/hamburger-menu.png" alt="">
+            </div>
+            <div id="menu" class="content-menu">
+                <div class="options-menu">
+                    
+                    <a href="./index.html">
+                        <button class="btn">
+                            <span>HOVER ME</span>
+                            <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                            <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                            <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                            </svg>
+                        </button>
+                    </a>
+                    <a href="./pages/products/products.html">
+                        <button class="btn">
+                            <span>HOVER ME</span>
+                            <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                            <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                            <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                            </svg>
+                        </button>
+                    </a>
+                    <a href="./pages/contact/contact.html">
+                        <button class="btn">
+                            <span>HOVER ME</span>
+                            <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                            <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                            <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                            </svg>
+                        </button>
+                    </a>
+                    
+                    <a href="./pages/about/about.html">
+                        <button class="btn">
+                            <span>HOVER ME</span>
+                            <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                            <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                            <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                            </svg>
+                        </button>
+                    </a>
+                    <a href="./index.html">
+                        <button class="btn">
+                            <span>HOVER ME</span>
+                            <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                            <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                            <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                            </svg>
+                        </button>
+                    </a>
+                </div>
+                <button class="btn">
+                    <span>SAIR</span>
+                    <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                    <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                    <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                    </svg>
+                </button>
             </div>
         </div>
-    </main>
-    <footer>
-        <div class="header-footer">
-            <h1>Receba novovidades por e-mail !</h1>
-            <div class="header-footer-e-mail">
-                <input type="text" name="" id="">
-                <button>BUSCAR</button>
-            </div>
-        </div>
-        <div class="main-footer">
-            <div class="options-footer">
-               <ul>
-                    <li><h1>SOBRE A LOJA AQUI</h1></li>
-                    <li><h1>SOBRE A LOJA AQUI</h1></li>
-                    <li><h1>SOBRE A LOJA AQUI</h1></li>
-                    <li><h1>SOBRE A LOJA AQUI</h1></li>
-                    <li><h1>SOBRE A LOJA AQUI</h1></li>
-               </ul>
-            </div>
-            <div class="options-footer">
-               <ul>
-                    <li><h1>SOBRE A LOJA AQUI</h1></li>
-                    <li><h1>SOBRE A LOJA AQUI</h1></li>
-                    <li><h1>SOBRE A LOJA AQUI</h1></li>
-                    <li><h1>SOBRE A LOJA AQUI</h1></li>
-                    <li><h1>SOBRE A LOJA AQUI</h1></li>
-               </ul>
-            </div>
-            <div class="options-footer">
-               <ul>
-                    <li><h1>SOBRE A LOJA AQUI</h1></li>
-                    <li><h1>SOBRE A LOJA AQUI</h1></li>
-                    <li><h1>SOBRE A LOJA AQUI</h1></li>
-                    <li><h1>SOBRE A LOJA AQUI</h1></li>
-                    <li><h1>SOBRE A LOJA AQUI</h1></li>
-               </ul>
-            </div>
-            
-        </div>
-        <div class="end-footer">
-            <p>Created by: Carlos Dantas</p>
-        </div>
-    </footer>
-    <div class="box-content-menu">
-        <div onclick="myFunction()" class="hamburger-menu">
-            <img  src="./img/hamburger-menu.png" alt="">
-        </div>
-        <div id="menu" class="content-menu">
-            
-            <div class="options-menu">
-                <button class="btn-menu"><a href="./index.html">HOME</a></button>
-                <button class="btn-menu"><a href="./pages/products/products.html">PRODUTOS</a></button>
-                <button class="btn-menu"><a href="./pages/contact/contact.html">CONTATO</a></button>
-                <button class="btn-menu"><a href="./pages/about/about.html">SOBRE</a></button>
-                <button class="btn-menu"><a href="./index.html">SUPORTE</a></button>
-            </div>
-            <button class="btn-menu-sair">sair</button>
-        </div>
-    </div>
-    
-</body>
-
+    </body>
+</html>

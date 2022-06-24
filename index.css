@@ -1,31 +1,69 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Patrick Hand', cursive;
-}
-button{
-    height: 50px;
-    width: 100%;
-    border-radius: 10px;
-    border: none;
-    transition:0.2s;
-    color: white;
-    transform: scale(1.05);
-    font-size: 20px;
+    font-family: 'Lato', sans-serif;
 }
 
+.btn {
+    height: 60px;
+    margin-top: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #91C9FF;
+    outline: none;
+    transition: 1s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #064c82;
+  }
+  
+  svg {
+    position: relative;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+  }
+  
+  .btn:hover {
+    transition: 1s ease-in-out;
+    background: #4F95DA;
+  }
+  
+  .btn:hover svg {
+    stroke-dashoffset: -480;
+  }
+  
+  .btn span {
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+  }
+  
+
 input{
-    height: 50px;
+    height: 40px;
+    width: 30vw;
     margin: 10px;
     border-radius: 10px;
     border: none;
     font-size: 20px;
 }
+
+body{
+    background-image: url(./img/bg-content.jpg);
+    background-size: 100%;
+}
+
 .container{
     display: flex;
     height: 100%;
-    background-image: url(./img/bg-content.jpg);
-    background-size: 100%;
+    
 }
 
 .hamburger-menu{
@@ -40,15 +78,16 @@ input{
     border-radius: 50%;
     padding: 10px;
     display: flex;
+    cursor: pointer;
     align-items: flex-end;
     box-shadow: 1px 1px 5px 1px rgb(255, 255, 255);
 }
 
 .box-content-menu{
     position: fixed;
-    padding: 10px;
+    padding: 15px;
     top: 0;
-    background-color: #28B17D;
+    background-color: rgba(209, 209, 209, 0.964);
     display: flex;
     flex-direction: column;
     border-radius: 0px 50px 50px ;
@@ -57,40 +96,15 @@ input{
 }
 
 .content-menu{
-    width: 300px;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 10px 0;
 }
+
 #menu{
     display: none;
-}
-
-.btn-menu{
-    background-color: transparent;
-    border-bottom:  1px solid rgb(0, 0, 0);
-    border-radius: 0;
-    text-decoration: underline;
-}
-
-.btn-menu a{
-    color: white;
-}
-.btn-menu:hover{
-    background-color: #37C1E4;
-    border-bottom:  1px solid rgb(255, 255, 255);
-}
-
-.btn-menu-sair{
-    margin-top: 50px;
-    background-color: red;
-    border-bottom:  1px solid rgb(255, 255, 255);
-    border-radius: 0;
-}
-.btn-menu-sair:hover{
-    background-color: #37C1E4;
-    border-bottom:  1px solid rgb(255, 4, 4);
 }
 
 .header-main-content{
@@ -107,29 +121,16 @@ input{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: #28B17D;
-  
+    background-color: rgba(81, 93, 168, 0.964);
+    color: white;
+}
+.header-main-logo p{
+ font-size: 20px;
 }
 
-.seach-box{
-    margin: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .logo{ 
-    width: 150px;
+    width: 130px;
     margin: 10px;
-}
-.seach-box input{
-    width: 50vw;
-}
-.seach-box button{
-    height: 50px;
-    width: 100px;
-    margin: 10px;
-    background-color: #EE3124;
-    color: white;
 }
 
 .view{
@@ -143,7 +144,7 @@ input{
     height: 60px;
     width: 70vw;
     height: 100%;
-    background-color: #2C3582;
+    background-color:#5ecb0c;
     color: white;
     display: flex;
     flex-wrap: wrap;
@@ -151,9 +152,7 @@ input{
     align-items: center;
     padding: 10px;
 }
-#txt{
-    font-size: 25px;
-}
+
 
 .block{
     width: 70vw;
@@ -162,81 +161,9 @@ input{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-}
-
-.box-product{ 
-    width: 300px;
-    background-color: #ffffff;
-    border-radius: 5px;
-    margin: 20px;
     padding: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
-.header-box-product{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.header-box-product button{
-    width: 40px;
-    height: 40px;
-    margin: 0 10px;
-    background-color: #04ce5871;
-    border-radius: 50%;
-}
-.header-box-product button:hover{
-    background-color: #04ce58;
-}
-
-.img-product{
-    margin: 10px;
-    width: 200px;
-}
-
-.description-product{
-    padding: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
-.value-product{
-    margin: 10px 0px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.old-price-product{
-    display: flex;
-    text-decoration: line-through;
-    color: red;
-    font-size: 20px;
-}
-
-.price-product{
-    display: flex;
-    font-size: 25px;
-}
-
-.portion-price{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.btn-buy-product{
-    width: 90%;
-    margin-top: 10px;
-}
-
-#btn-buy-now{
-    background-color: #28B17D;
-}
 
 footer{
     text-decoration: none;
@@ -245,20 +172,17 @@ footer{
 .header-footer{
     padding: 0px 20px;
     height: 10vh;
-    background-color: #66CCD8;
+    background-color: rgba(81, 93, 168, 0.964);
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
 }
 
 .header-footer-e-mail{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.header-footer-e-mail input{
-    width: 30vw;
 }
 
 .header-footer-e-mail button{
@@ -285,13 +209,11 @@ footer{
     color: white;
 }
 
-.end-footer{padding: 10px;
+.end-footer{
+    padding: 10px;
     display: flex;
-    width: 100%;
     justify-content: center;
     align-items: center;
     background-color: black;
     color: white;
-    position: fixed;
-    bottom: 0;
 }
