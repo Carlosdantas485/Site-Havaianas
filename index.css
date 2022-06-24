@@ -15,7 +15,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ffffff;
+    background-color: #20beb1;
   }
   
   svg {
@@ -31,7 +31,7 @@
   
   .btn:hover {
     transition: 1s ease-in-out;
-    background: #4F95DA;
+    background: #72b6fa;
   }
   
   .btn:hover svg {
@@ -40,7 +40,7 @@
   
   .btn span {
     position: absolute;
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 100;
   }
@@ -79,22 +79,20 @@ body{
     display: flex;
     cursor: pointer;
     align-items: flex-end;
-    background-color: white;
-    box-shadow: 1px 1px 5px 1px rgb(255, 255, 255);
-
+    background-color: rgb(255, 255, 255);
 }
 
 .box-content-menu{
     position: fixed;
     padding: 15px;
     top: 0;
-    background-color: rgba(81, 93, 168, 0.964);
     display: flex;
     flex-direction: column;
     border-radius: 0px 50px 50px ;
     font-size: 20px;
     font-weight: bold;
-    box-shadow: 1px 1px 10px 1px rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0.1px 0.1px 5px 0.1px rgb(0, 0, 0);
 }
 
 .content-menu{
@@ -123,10 +121,8 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: rgba(81, 93, 168, 0.964);
-    color: white;
-    box-shadow: 1px 1px 6px 1px rgb(0, 0, 0);
-
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0.1px 0.1px 5px 0.1px rgb(0, 0, 0);
 }
 .header-main-logo p{
  font-size: 20px;
@@ -148,7 +144,7 @@ body{
     height: 60px;
     width: 70vw;
     height: 100%;
-    background-color:#5ecb0c;
+    background-color:#20beb1dc;
     color: white;
     display: flex;
     flex-wrap: wrap;
@@ -160,7 +156,7 @@ body{
 
 .block{
     width: 70vw;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -200,7 +196,8 @@ footer{
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    background-color: #fa7b04;
+    background-color: #72b6fa;
+    color: white;
 }
 
 .options-footer{
@@ -210,7 +207,7 @@ footer{
     align-items: center;
     justify-content: center;
     padding: 10px;
-    color: white;
+
 }
 
 .end-footer{
